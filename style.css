@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(240, 231, 231);
+}
+
+h1{
+    font-size: 90px;
+    color: rgb(19, 9, 9);
+    text-align:  center;
+    font-family:'Courier New', Courier, monospace
+}
+
+.serieContainer{
+    border: 3px solid rgb(22, 21, 21);
+    border-radius: 15px;
+    box-shadow: 15px 15px 15px black;      
+   }
+.serieTitle{
+    text-align: center;
+    font-size: 2.5em;
+    font-family:'Courier New', Courier, monospace;        
+}
+.serieContainer>p{
+    font-size: 26px;
+    text-align: center;
+}
+/*------------------------------------------------------------*/
+.seasonContainer{
+    border: 5px solid black;
+    margin-top: 35px;
+    box-shadow: rgb(0, 0, 0) 15px 15px 15px;
+}
+    
+.seasonContainer>img{
+    width: 100%;  
+    height: 1000px;
+     
+  }
+
+.seasonContainer>h3{
+    font-size: 40px;
+    text-align: center;    
+    
+}
+.seasonContainer>p{
+    font-size: 26px;
+}
+/*-------------------------------------------------------------------------*/
+.chapterContainer{
+    display: flex;
+    margin-top: 35px;    
+    gap: 18px;    
+}
+.chapterInfo{
+    border: 3px solid black;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: 15px 15px 15px;
+}
+.chapterInfo>h3{
+    text-align: center;
+    font-size: 30px;
+}
+.chapterInfo>p{
+    font-size: 24px;    
+}
+/*---------------------------------------*/
+.actorContainer{
+    display: flex;    
+    margin-top: 30px;
+    flex-wrap: wrap;    
+    gap: 40px;
+    justify-content: center;
+}
+.actor{
+    border: 3px solid black;
+    width: 600px;
+    box-shadow: 15px 15px 15px;
+    height: auto;
+
+}
+.actorImage>img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;  
+}
+.actorInfo>h2{
+    font-size: 30px;
+    text-align: center;
+   
+}
+.actorInfo>p{
+    font-size: 24px;
+}
+@media(max-width: 768px){
+    h1{
+        font-size: 55px;
+    }
+    .serieTitle{
+        font-size: 1.5rem;
+    }
+    .seasonContainer>img{
+        height: 700px;
+    }
+    .serieContainer>p{
+        font-size: 18px;
+    }   
+    .seasonContainer>h3{
+        font-size: 25px;
+    }
+    .seasonContainer>p{
+        font-size: 18px;
+    }
+    .chapterInfo>h3{
+        font-size: 25px;
+    }
+    .chapterInfo>p{
+        font-size: 18px;
+    }
+    .actor{
+        width: 400px;
+    }
+    .actorImage>img{
+        height: 350px;
+    }
+    .actorInfo>h2{
+        font-size: 25px;          
+    }
+    .actorInfo>p{
+        font-size: 18px;
+    }
+}
+@media(max-width: 580px){
+    h1{
+        font-size: 40px;
+    }
+    .serieTitle{
+        font-size: 0.8rem;
+    }
+    .seasonContainer>img{
+        height: 500px;
+    }
+    .serieContainer>p{
+        font-size: 14px;
+    }   
+    .seasonContainer>h3{
+        font-size: 18px;
+    }
+    .seasonContainer>p{
+        font-size: 14px;
+    }
+    .chapterInfo>h3{
+        font-size: 18px;
+    }
+    .chapterInfo>p{
+        font-size: 14px;
+    }
+    .actor{
+        width: 300px;
+    }
+    .actorImage>img{
+        height: 250px;
+    }
+    .actorInfo>h2{
+        font-size: 18px;          
+    }
+    .actorInfo>p{
+        font-size: 14px;
+    }
+}
